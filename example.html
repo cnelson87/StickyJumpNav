@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<title>StickyJumpNav</title>
+
+	<link rel="stylesheet" href="assets/reset.css" />
+	<link rel="stylesheet" href="assets/fpo-content.css" />
+	<link rel="stylesheet" href="assets/StickyJumpNav.css" />
+
+	<script src="assets/vendor/jquery.js"></script>
+	<script src="assets/vendor/TweenMax.js"></script>
+	<script src="assets/vendor/Class.js"></script>
+	<script src="assets/StickyJumpNav.js"></script>
+
+	<script>
+		$(function() {
+			var $nav = $('#stickyJumpnav');
+			var exStickyJumpNav = new StickyJumpNav( $nav, {triggerPoint: 50, showTrigger: true} );
+		});
+	</script>
+
+</head>
+<body>
+
+	<nav class="stickyJumpnav" id="stickyJumpnav">
+		<ul>
+			<li><a href="#/content1">1</a></li>
+			<li><a href="#/content2">2</a></li>
+			<li><a href="#/content3">3</a></li>
+			<li><a href="#/content4">4</a></li>
+		</ul>
+	</nav>
+
+	<section class="content content1" id="content1">
+		<div class="content-inner">
+			<h1>Content 1</h1>
+		</div>
+	</section>
+
+	<section class="content content2" id="content2">
+		<div class="content-inner">
+			<h2>Content 2</h2>
+		</div>
+	</section>
+
+	<section class="content content3" id="content3">
+		<div class="content-inner">
+			<h2>Content 3</h2>
+		</div>
+	</section>
+
+	<section class="content content4" id="content4">
+		<div class="content-inner">
+			<h2>Content 4</h2>
+		</div>
+	</section>
+
+</body>
+</html>

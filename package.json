@@ -1,0 +1,16 @@
+{
+	"name": "StickyJumpNav",
+	"description": "Sticky Jump Nav",
+	"version": "0.1.0",
+	"main": [
+		"assets/StickyJumpNav.js",
+		"assets/StickyJumpNav.css"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cnelson87/StickyJumpNav"
+	},
+	"license": "MIT",
+	"author": "Chris Nelson <cnelson87@gmail.com>",
+	"readmeFilename": "README.md"
+}
