@@ -29,6 +29,7 @@ var StickyJumpNav = Class.extend({
 			selectorTabs: 'a',
 			selectorPanels: '.content',
 			activeClass: 'active',
+			scrollSpeed: 400,
 			//triggerPoint range is 0 to 100
 			triggerPoint: 50,
 			showTrigger: false
@@ -103,7 +104,7 @@ var StickyJumpNav = Class.extend({
 **/
 
 	pageJumpScroll: function($target) {
-		this.$htmlBody.animate({scrollTop: $target.offset().top}, 200, function() {
+		this.$htmlBody.animate({scrollTop: $target.offset().top}, this.options.scrollSpeed, function() {
 			$target.focus();
 		});
 	},
