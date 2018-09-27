@@ -2,8 +2,8 @@
 	"name": "StickyJumpNav",
 	"version": "0.1.0",
 	"dependencies": {
-		"jquery": "~3.2.1",
-		"greensock": "~1.19.1",
+		"jquery": "~3.3.1",
+		"greensock": "~1.20.5",
 		"Class.js": "~1.0.0"
 	}
 }
